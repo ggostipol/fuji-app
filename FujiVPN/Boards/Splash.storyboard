@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iXG-dU-j2E">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="Jyi-Ry-Hz4">
+            <objects>
+                <viewController id="iXG-dU-j2E" customClass="SplashVC" customModule="FujiVPN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bWf-f0-RdI">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="Ud4-jq-eG7">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FujiVPN" translatesAutoresizingMaskIntoConstraints="NO" id="411-LK-7ij">
+                                <rect key="frame" x="134.66666666666666" y="689" width="120.66666666666666" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="411-LK-7ij" secondAttribute="height" multiplier="40:7" id="GAj-kT-CXr"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1y-rW-Lm8" customClass="GTProgressBar" customModule="GTProgressBar">
+                                <rect key="frame" x="133" y="726" width="124" height="7"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="B1y-rW-Lm8" secondAttribute="height" multiplier="124:7" id="GTn-E9-NQV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="displayLabel" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barBorderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0nN-PU-x3n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ud4-jq-eG7" firstAttribute="top" secondItem="bWf-f0-RdI" secondAttribute="top" id="2iY-8o-v2M"/>
+                            <constraint firstItem="411-LK-7ij" firstAttribute="width" secondItem="bWf-f0-RdI" secondAttribute="width" multiplier="0.309402" id="2lp-Cv-UhZ"/>
+                            <constraint firstItem="411-LK-7ij" firstAttribute="centerX" secondItem="bWf-f0-RdI" secondAttribute="centerX" id="3Z4-V7-kli"/>
+                            <constraint firstItem="B1y-rW-Lm8" firstAttribute="centerX" secondItem="bWf-f0-RdI" secondAttribute="centerX" id="AVA-Vf-IAa"/>
+                            <constraint firstItem="0nN-PU-x3n" firstAttribute="bottom" secondItem="411-LK-7ij" secondAttribute="bottom" constant="100" id="NgY-gM-pFv"/>
+                            <constraint firstItem="B1y-rW-Lm8" firstAttribute="width" secondItem="bWf-f0-RdI" secondAttribute="width" multiplier="0.317949" id="V9P-ta-NBk"/>
+                            <constraint firstItem="B1y-rW-Lm8" firstAttribute="top" secondItem="411-LK-7ij" secondAttribute="bottom" constant="16" id="WKI-Uc-wPI"/>
+                            <constraint firstItem="Ud4-jq-eG7" firstAttribute="leading" secondItem="0nN-PU-x3n" secondAttribute="leading" id="cpv-Uv-Ogp"/>
+                            <constraint firstAttribute="bottom" secondItem="Ud4-jq-eG7" secondAttribute="bottom" id="fKU-Di-K21"/>
+                            <constraint firstItem="0nN-PU-x3n" firstAttribute="trailing" secondItem="Ud4-jq-eG7" secondAttribute="trailing" id="m5O-3B-yrT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressBar" destination="B1y-rW-Lm8" id="QhD-Av-Aps"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="doq-gd-0Nh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-91.304347826086968" y="221.65178571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FujiVPN" width="120" height="21"/>
+        <image name="launch" width="375" height="667"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

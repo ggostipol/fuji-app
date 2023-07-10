@@ -1,0 +1,606 @@
+PODS:
+  - AdColony (4.9.0)
+  - Ads-Global (4.3.1.9):
+    - Ads-Global/BUAdSDK (= 4.3.1.9)
+  - Ads-Global/APM (4.3.1.9):
+    - RangersAPM-Pangle/Crash (= 2.3.2-pangle)
+    - RangersAPM-Pangle/Global (= 2.3.2-pangle)
+    - RangersAPM-Pangle/SessionTracker (= 2.3.2-pangle)
+  - Ads-Global/BUAdSDK (4.3.1.9):
+    - Ads-Global/BUFoundation
+    - Ads-Global/International
+  - Ads-Global/BUFoundation (4.3.1.9):
+    - BURelyFoundation_Global (= 0.0.1.57)
+  - Ads-Global/International (4.3.1.9):
+    - Ads-Global/APM
+    - Ads-Global/BUFoundation
+  - Alamofire (5.6.4)
+  - AmazonPublisherServicesSDK (4.4.3)
+  - Amplitude-iOS (4.9.3)
+  - APDAdColonyAdapter (3.0.2.1):
+    - AdColony (= 4.9.0)
+    - Appodeal (= 3.0.2)
+  - APDAppLovinAdapter (3.0.2.1):
+    - AppLovinSDK (~> 11.6.1)
+    - Appodeal (= 3.0.2)
+  - APDBidMachineAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+    - BidMachine (= 2.0.0.5)
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+  - APDGoogleAdMobAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+    - Google-Mobile-Ads-SDK (= 9.14.0)
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+  - APDIABAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+  - APDIronSourceAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+    - IronSourceSDK (= 7.2.6)
+  - APDStackAnalyticsAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+    - StackAnalytics (~> 1.4.0)
+    - StackIAB (~> 2.0.2)
+    - StackModules (~> 1.4.0)
+  - APDUnityAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+    - UnityAds (= 4.5.0)
+  - APDVungleAdapter (3.0.2.1):
+    - Appodeal (= 3.0.2)
+    - VungleSDK-iOS (= 6.12.1)
+  - ApphudSDK (3.0.1)
+  - AppLovinSDK (11.6.1)
+  - Appodeal (3.0.2):
+    - Protobuf
+    - StackConsentManager (~> 1.2.0)
+    - StackIAB (~> 2.0.2)
+    - StackModules (~> 1.4.0)
+    - StackProtobuf (~> 0.8.0)
+  - BidMachine (2.0.0.5):
+    - BidMachineAnalyticsCore (~> 0.1.0)
+    - BidMachineApiCore (~> 0.0.3)
+    - BidMachineBiddingCore (~> 0.0.2)
+    - BidMachineDisplayCore (~> 0.1.0)
+    - BidMachineNetworkCore (~> 0.0.1)
+    - StackIAB (~> 2.0.0)
+    - StackModules (~> 1.4.0)
+  - BidMachineAdColonyAdapter (2.0.0.1):
+    - AdColony (= 4.9.0)
+    - BidMachine (~> 2.0.0.0)
+  - BidMachineAmazonAdapter (2.0.0.1):
+    - AmazonPublisherServicesSDK (= 4.4.3)
+    - BidMachine (~> 2.0.0.0)
+  - BidMachineAnalyticsCore (0.1.1):
+    - BidMachineApiCore (~> 0.0.4)
+    - BidMachineNetworkCore (~> 0.0.2)
+  - BidMachineApiCore (0.0.4)
+  - BidMachineBiddingCore (0.0.3):
+    - BidMachineApiCore (~> 0.0.4)
+  - BidMachineCriteoAdapter (2.0.0.1):
+    - BidMachine (~> 2.0.0.0)
+    - CriteoPublisherSdk (= 4.5.0)
+  - BidMachineDisplayCore (0.1.2):
+    - BidMachineBiddingCore (~> 0.0.3)
+  - BidMachineNetworkCore (0.0.2):
+    - BidMachineApiCore (~> 0.0.4)
+  - BidMachineNotsyAdapter (2.0.0.4):
+    - BidMachine (~> 2.0.0.0)
+    - Google-Mobile-Ads-SDK (= 9.14.0)
+  - BidMachinePangleAdapter (2.0.0.1):
+    - Ads-Global (= 4.3.1.9)
+    - BidMachine (~> 2.0.0.0)
+  - BidMachineSmaatoAdapter (2.0.0.3):
+    - BidMachine (~> 2.0.0.0)
+    - smaato-ios-sdk (= 21.7.8)
+    - smaato-ios-sdk/Modules/UnifiedBidding (= 21.7.8)
+  - BidMachineTapjoyAdapter (2.0.0.1):
+    - BidMachine (~> 2.0.0.0)
+    - TapjoySDK (= 12.10.0)
+  - BidMachineVungleAdapter (2.0.0.2):
+    - BidMachine (~> 2.0.0.0)
+    - VungleSDK-iOS (= 6.12.1)
+  - Branch (1.45.2)
+  - BulletinBoard (5.0.0)
+  - BURelyFoundation_Global (0.0.1.57):
+    - BURelyFoundation_Global/NETWork (= 0.0.1.57)
+  - BURelyFoundation_Global/NETWork (0.0.1.57)
+  - CriteoPublisherSdk (4.5.0):
+    - CriteoPublisherSdk/Sdk (= 4.5.0)
+  - CriteoPublisherSdk/Sdk (4.5.0)
+  - Device (3.2.1)
+  - DeviceLayout (0.5.0):
+    - Device (~> 3.2.1)
+  - Firebase/Analytics (10.7.0):
+    - Firebase/Core
+  - Firebase/Core (10.7.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.7.0)
+  - Firebase/CoreOnly (10.7.0):
+    - FirebaseCore (= 10.7.0)
+  - Firebase/Crashlytics (10.7.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 10.7.0)
+  - Firebase/Messaging (10.7.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.7.0)
+  - FirebaseAnalytics (10.7.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.7.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.7.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.7.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreExtension (10.7.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.7.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.7.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseSessions (~> 10.5)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.7.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.7.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseSessions (10.7.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseCoreExtension (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.10)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesSwift (~> 2.1)
+  - Google-Mobile-Ads-SDK (9.14.0):
+    - GoogleAppMeasurement (< 11.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (10.7.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.7.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.7.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.2):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUserMessagingPlatform (2.0.1)
+  - GoogleUtilities (7.11.1):
+    - GoogleUtilities/AppDelegateSwizzler (= 7.11.1)
+    - GoogleUtilities/Environment (= 7.11.1)
+    - GoogleUtilities/ISASwizzler (= 7.11.1)
+    - GoogleUtilities/Logger (= 7.11.1)
+    - GoogleUtilities/MethodSwizzler (= 7.11.1)
+    - GoogleUtilities/Network (= 7.11.1)
+    - "GoogleUtilities/NSData+zlib (= 7.11.1)"
+    - GoogleUtilities/Reachability (= 7.11.1)
+    - GoogleUtilities/SwizzlerTestHelpers (= 7.11.1)
+    - GoogleUtilities/UserDefaults (= 7.11.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/ISASwizzler (7.11.1)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.1)"
+  - GoogleUtilities/Reachability (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/SwizzlerTestHelpers (7.11.1):
+    - GoogleUtilities/MethodSwizzler
+  - GoogleUtilities/UserDefaults (7.11.1):
+    - GoogleUtilities/Logger
+  - GTProgressBar (0.3.3)
+  - IronSourceSDK (7.2.6.0)
+  - JGProgressHUD (2.2)
+  - KeychainSwift (19.0.0)
+  - lottie-ios (4.1.3)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - Nuke (10.7.1)
+  - OMSDK_Appodeal (1.4.2.0)
+  - OneKit-Pangle/BaseKit (1.1.21-pangle)
+  - OneKit-Pangle/Database (1.1.21-pangle):
+    - OneKit-Pangle/Service
+  - OneKit-Pangle/Service (1.1.21-pangle)
+  - PromisesObjC (2.2.0)
+  - PromisesSwift (2.2.0):
+    - PromisesObjC (= 2.2.0)
+  - Protobuf (3.22.1)
+  - RangersAPM-Pangle/Core (2.3.2-pangle):
+    - OneKit-Pangle/BaseKit (= 1.1.21-pangle)
+  - RangersAPM-Pangle/Crash (2.3.2-pangle):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/HMD
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/Global (2.3.2-pangle):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/Public
+  - RangersAPM-Pangle/HMD (2.3.2-pangle):
+    - OneKit-Pangle/Database (= 1.1.21-pangle)
+    - RangersAPM-Pangle/Core
+  - RangersAPM-Pangle/Public (2.3.2-pangle):
+    - RangersAPM-Pangle/Core
+  - RangersAPM-Pangle/SessionTracker (2.3.2-pangle):
+    - RangersAPM-Pangle/Core
+    - RangersAPM-Pangle/HMD
+    - RangersAPM-Pangle/Public
+  - ReachabilitySwift (5.0.0)
+  - smaato-ios-sdk (21.7.8):
+    - smaato-ios-sdk/Full (= 21.7.8)
+  - smaato-ios-sdk/Banner (21.7.8):
+    - smaato-ios-sdk/Modules/Banner
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/RichMedia
+  - smaato-ios-sdk/Full (21.7.8):
+    - smaato-ios-sdk/Banner
+    - smaato-ios-sdk/Interstitial
+    - smaato-ios-sdk/Native
+    - smaato-ios-sdk/Outstream
+    - smaato-ios-sdk/RewardedAds
+  - smaato-ios-sdk/Interstitial (21.7.8):
+    - smaato-ios-sdk/Modules/Interstitial
+    - smaato-ios-sdk/Modules/RichMedia
+    - smaato-ios-sdk/Modules/Video
+  - smaato-ios-sdk/Modules/Banner (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/Core (21.7.8)
+  - smaato-ios-sdk/Modules/Interstitial (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/Native (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/OpenMeasurement (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/Outstream (21.7.8):
+    - smaato-ios-sdk/Modules/Banner
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/RichMedia
+  - smaato-ios-sdk/Modules/RewardedAds (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/RichMedia (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/OpenMeasurement
+  - smaato-ios-sdk/Modules/UnifiedBidding (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+  - smaato-ios-sdk/Modules/Video (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/OpenMeasurement
+  - smaato-ios-sdk/Native (21.7.8):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/Native
+  - smaato-ios-sdk/Outstream (21.7.8):
+    - smaato-ios-sdk/Modules/Outstream
+  - smaato-ios-sdk/RewardedAds (21.7.8):
+    - smaato-ios-sdk/Modules/RewardedAds
+    - smaato-ios-sdk/Modules/Video
+  - SMIconLabel (0.5.0)
+  - StackAnalytics (1.4.2):
+    - StackAnalytics/Full (= 1.4.2)
+    - StackModules (~> 1.4.0)
+  - StackAnalytics/Base (1.4.2):
+    - StackModules (~> 1.4.0)
+  - StackAnalytics/Crashes (1.4.2):
+    - StackModules (~> 1.4.0)
+  - StackAnalytics/Full (1.4.2):
+    - StackAnalytics/Base
+    - StackAnalytics/Crashes
+    - StackModules (~> 1.4.0)
+  - StackConsentManager (1.2.3)
+  - StackIAB (2.0.7):
+    - StackIAB/StackIABAssets (= 2.0.7)
+    - StackIAB/StackMRAIDKit (= 2.0.7)
+    - StackIAB/StackNASTKit (= 2.0.7)
+    - StackIAB/StackOpenMeasure (= 2.0.7)
+    - StackIAB/StackRichMedia (= 2.0.7)
+    - StackIAB/StackVASTAssets (= 2.0.7)
+    - StackIAB/StackVASTKit (= 2.0.7)
+    - StackIAB/StackVideoPlayer (= 2.0.7)
+    - StackIAB/StackXML (= 2.0.7)
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackIABAssets (2.0.7):
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackMRAIDKit (2.0.7):
+    - StackIAB/StackIABAssets
+    - StackIAB/StackOpenMeasure
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackNASTKit (2.0.7):
+    - StackIAB/StackVASTKit
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackOpenMeasure (2.0.7):
+    - OMSDK_Appodeal (~> 1.4.2.0)
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackRichMedia (2.0.7):
+    - StackIAB/StackIABAssets
+    - StackIAB/StackVASTAssets
+    - StackIAB/StackVideoPlayer
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackVASTAssets (2.0.7):
+    - StackIAB/StackIABAssets
+    - StackIAB/StackXML
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackVASTKit (2.0.7):
+    - StackIAB/StackMRAIDKit
+    - StackIAB/StackVASTAssets
+    - StackIAB/StackVideoPlayer
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackVideoPlayer (2.0.7):
+    - StackModules (~> 1.4.1)
+  - StackIAB/StackXML (2.0.7):
+    - StackModules (~> 1.4.1)
+  - StackModules (1.4.2):
+    - StackModules/StackProductPresentation (= 1.4.2)
+  - StackModules/StackFoundation (1.4.2)
+  - StackModules/StackProductPresentation (1.4.2):
+    - StackModules/StackUIKit
+  - StackModules/StackUIKit (1.4.2):
+    - StackModules/StackFoundation
+  - StackProtobuf (0.8.5):
+    - Protobuf (~> 3.13)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - TapjoySDK (12.10.0)
+  - UnityAds (4.5.0)
+  - VungleSDK-iOS (6.12.1)
+  - YandexMobileMetrica/Dynamic (4.5.0):
+    - YandexMobileMetrica/Dynamic/Core (= 4.5.0)
+    - YandexMobileMetrica/Dynamic/Crashes (= 4.5.0)
+  - YandexMobileMetrica/Dynamic/Core (4.5.0)
+  - YandexMobileMetrica/Dynamic/Crashes (4.5.0):
+    - YandexMobileMetrica/Dynamic/Core
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - Amplitude-iOS (~> 4.9.3)
+  - APDAdColonyAdapter (= 3.0.2.1)
+  - APDAppLovinAdapter (= 3.0.2.1)
+  - APDBidMachineAdapter (= 3.0.2.1)
+  - APDGoogleAdMobAdapter (= 3.0.2.1)
+  - APDIABAdapter (= 3.0.2.1)
+  - APDIronSourceAdapter (= 3.0.2.1)
+  - APDStackAnalyticsAdapter (= 3.0.2.1)
+  - APDUnityAdapter (= 3.0.2.1)
+  - APDVungleAdapter (= 3.0.2.1)
+  - ApphudSDK
+  - BidMachineAdColonyAdapter (~> 2.0.0.0)
+  - BidMachineAmazonAdapter (~> 2.0.0.0)
+  - BidMachineCriteoAdapter (~> 2.0.0.0)
+  - BidMachineNotsyAdapter (~> 2.0.0.4)
+  - BidMachinePangleAdapter (~> 2.0.0.0)
+  - BidMachineSmaatoAdapter (~> 2.0.0.0)
+  - BidMachineTapjoyAdapter (~> 2.0.0.0)
+  - BidMachineVungleAdapter (~> 2.0.0.1)
+  - Branch
+  - BulletinBoard
+  - DeviceLayout
+  - Firebase/Analytics
+  - Firebase/Crashlytics
+  - Firebase/Messaging
+  - GTProgressBar
+  - JGProgressHUD
+  - KeychainSwift (~> 19.0)
+  - lottie-ios
+  - Nuke
+  - ReachabilitySwift
+  - SMIconLabel
+  - SwiftMessages
+  - YandexMobileMetrica/Dynamic
+
+SPEC REPOS:
+  trunk:
+    - AdColony
+    - Ads-Global
+    - Alamofire
+    - AmazonPublisherServicesSDK
+    - Amplitude-iOS
+    - APDAdColonyAdapter
+    - APDAppLovinAdapter
+    - APDBidMachineAdapter
+    - APDGoogleAdMobAdapter
+    - APDIABAdapter
+    - APDIronSourceAdapter
+    - APDStackAnalyticsAdapter
+    - APDUnityAdapter
+    - APDVungleAdapter
+    - ApphudSDK
+    - AppLovinSDK
+    - Appodeal
+    - BidMachine
+    - BidMachineAdColonyAdapter
+    - BidMachineAmazonAdapter
+    - BidMachineAnalyticsCore
+    - BidMachineApiCore
+    - BidMachineBiddingCore
+    - BidMachineCriteoAdapter
+    - BidMachineDisplayCore
+    - BidMachineNetworkCore
+    - BidMachineNotsyAdapter
+    - BidMachinePangleAdapter
+    - BidMachineSmaatoAdapter
+    - BidMachineTapjoyAdapter
+    - BidMachineVungleAdapter
+    - Branch
+    - BulletinBoard
+    - BURelyFoundation_Global
+    - CriteoPublisherSdk
+    - Device
+    - DeviceLayout
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseSessions
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GTProgressBar
+    - IronSourceSDK
+    - JGProgressHUD
+    - KeychainSwift
+    - lottie-ios
+    - nanopb
+    - Nuke
+    - OMSDK_Appodeal
+    - OneKit-Pangle
+    - PromisesObjC
+    - PromisesSwift
+    - Protobuf
+    - RangersAPM-Pangle
+    - ReachabilitySwift
+    - smaato-ios-sdk
+    - SMIconLabel
+    - StackAnalytics
+    - StackConsentManager
+    - StackIAB
+    - StackModules
+    - StackProtobuf
+    - SwiftMessages
+    - TapjoySDK
+    - UnityAds
+    - VungleSDK-iOS
+    - YandexMobileMetrica
+
+SPEC CHECKSUMS:
+  AdColony: 4f3738dc633d7aaa8ec60729df973076cc8e97ed
+  Ads-Global: 167ddabcf74a82c41f7074dc286697418ee22b60
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AmazonPublisherServicesSDK: cd88ef55d5afaa6483bcb04b977e1585a95f9211
+  Amplitude-iOS: 122e026c44db8460e5efcf84859aa290a0ae9786
+  APDAdColonyAdapter: a69e8c1e30efce8de66a9cbef3f9c3b5ca9fa7a2
+  APDAppLovinAdapter: 612935fee05dd49d2e0e845dfdffe10983e98b3d
+  APDBidMachineAdapter: c8e61f4c5464c853b0bcfbeda0eb6d11450f7063
+  APDGoogleAdMobAdapter: 1a751b26f99a59e5de931a1dcc64c531d871e334
+  APDIABAdapter: 4c2d14b84be1677a0b4b958207c1a18f0032a1ee
+  APDIronSourceAdapter: 66b68ed13fa22d8f86f1ee8cc01097567d5efc5c
+  APDStackAnalyticsAdapter: 3f3387957614ccecd04a863616d643652a7f2ff5
+  APDUnityAdapter: b39ba75b5468a392e38c6b70a014287e6ce7381e
+  APDVungleAdapter: f7a413234db7f9f347a95771aa7bc49faafda29c
+  ApphudSDK: ca4114f00eedd45fe9eb0afbb01559c8db2aa703
+  AppLovinSDK: c72c4cc9dd61ee59827813bc99af35815c08ffd4
+  Appodeal: d2f8841bc6715c2ce431438ab57be0e6f792c799
+  BidMachine: d09995aa0b59e428aa59ea568f3a2f3c9f2bfcf5
+  BidMachineAdColonyAdapter: 4743180ec58307d8dd11bdd266980ff0dd7309e8
+  BidMachineAmazonAdapter: 035fbd91d6869b46a6450aeb82aa4afb81969658
+  BidMachineAnalyticsCore: 10689e8615050035dad4482cc1eb1f32ca973c6d
+  BidMachineApiCore: 329f57fe980e0214e10ae2a0d4901227d0a3f89a
+  BidMachineBiddingCore: 1f239c2a25477a40c92d02f356a455bcb60d1a67
+  BidMachineCriteoAdapter: 5a3d2496b56b2a717342b4186908fc5940deaae0
+  BidMachineDisplayCore: 9ca2e97053a8d799d44550c7f6571b748363d687
+  BidMachineNetworkCore: 9f9737ced43b4309edca2a96e50d0f90f467ed72
+  BidMachineNotsyAdapter: a962dd228f7cc1b53bcd39370829268e611f634f
+  BidMachinePangleAdapter: 03fdbc75e9f8d505d7c257a3561f26d950c96ba0
+  BidMachineSmaatoAdapter: 08527115d30d9962bb8e40bb26bb13d72449d2e0
+  BidMachineTapjoyAdapter: e89eea170e8fcf4aa294e612588e1c1a2383e99b
+  BidMachineVungleAdapter: 5ac1dd79b1b00116c17aa82f7239ea54b2e7de5b
+  Branch: c1a7fa1811ef9203c01bc6c2588a229eb3ee1a84
+  BulletinBoard: dba77053c2a7b64953f63073f7534165af2edd21
+  BURelyFoundation_Global: 5b03b5340630fa62fb9cd6eac52c5f57d4b0c17b
+  CriteoPublisherSdk: 26f16f975d6c0392ee7060626268e2f2d7ed2d82
+  Device: 0738862dd8a30856b4bd9e21cb9b728873d21392
+  DeviceLayout: 8c7beb3243ec4d8ceb8ca777c17fbfdd53cfb1c6
+  Firebase: 0219acf760880eeec8ce479895bd7767466d9f81
+  FirebaseAnalytics: f8133442ee6f8512e28ff19e62ce15398bfaeace
+  FirebaseCore: e317665b9d744727a97e623edbbed009320afdd7
+  FirebaseCoreExtension: f17247ba8c61e4d3c8d136b5e2de3cb4ac6a85b6
+  FirebaseCoreInternal: 8845798510aae74703467480f71ac613788d0696
+  FirebaseCrashlytics: 35fdd1a433b31e28adcf5c8933f4c526691a1e0b
+  FirebaseInstallations: 59c0e4c7a816a0f76710d83f77e5369b3e45eb96
+  FirebaseMessaging: ac9062bcc35ed56e15a0241d8fd317022499baf8
+  FirebaseSessions: 34e5c084da010ef3802cbc062b822e513c9e6318
+  Google-Mobile-Ads-SDK: 4fe6304b771f8467d29978cb790ec1e56e646946
+  GoogleAppMeasurement: fe17c92a32207dd5cdd4e8d742767f2da74857f6
+  GoogleDataTransport: 8378d1fa8ac49753ea6ce70d65a7cb70ce5f66e6
+  GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  GTProgressBar: a480283ecb0ada50de16c71e634892826928f640
+  IronSourceSDK: c1505d25bc587e8bc367941474e29b7dceba680c
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  lottie-ios: d0954d3150061f662ed0adf96ef98d7421864c47
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
+  OMSDK_Appodeal: c3e648a353665dc4c0a8235d6e7efa66b8277ab5
+  OneKit-Pangle: 68a778c39d36ed8feffd667a6b49225427bcf286
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  PromisesSwift: cf9eb58666a43bbe007302226e510b16c1e10959
+  Protobuf: d7f7c8329edf5eb8af65547a8ba3e9c1cee927d5
+  RangersAPM-Pangle: 97c8fe91af08574a739cc72a714b735efb6c891f
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  smaato-ios-sdk: f2c145efd3e3e322795d892c9a88eb499339262a
+  SMIconLabel: 979cdbe5b1cda89bff21eeb3c8f4cbc2aad8e3b1
+  StackAnalytics: 0ccc871d90978d6eab33e3df046966bab2dbddfd
+  StackConsentManager: 500e3d5762284eb2dc7d0a9f867faf6f2dee08b5
+  StackIAB: 17ee4cbe12d1aa6eb79f9a79b85375250bdd50fb
+  StackModules: 9c5f24f9112662fe218b93085318054c6861a44d
+  StackProtobuf: 6f25d1f149f12f58863918deb733b0e3b8f96775
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  TapjoySDK: 3dcd899e69eb3e36f231390c95c7105730619bcb
+  UnityAds: fab621d1066e414af9ce884f1252cdd53894263e
+  VungleSDK-iOS: 1d3488d790daf7266d5930ca901f1c3188fb936d
+  YandexMobileMetrica: 7dafc7d224077d4443ab3a587b82b24e9b6cc9c7
+
+PODFILE CHECKSUM: 4a7b6da7d8469a391ef775ec6b637fd25e194b22
+
+COCOAPODS: 1.11.3

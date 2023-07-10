@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  FujiVPN
+
+  Created by Евгений Алещенко on 04.08.2020.
+  
+*/
+
+// MARK: - Purchase Screen
+"main" = "Choose your best VPN plan";
+"start" = "Start";
+"restore" = "Restore purchase";
+"policy" = "Privacy policy";
+"terms" = "Terms of use";
+"perWeek" = "per week";
+"perMonth" = "per month";
+"perYear" = "per year";
+"weekly" = "Weekly";
+"yearly" = "Yearly";
+"monthly" = "Monthly";
+"trial" = "3 days free trial";
+"empty_price_title" = "Anonymous";
+"empty_price_title_two" = "Security";
+"empty_price_title_three" = "Ad Free";
+"empty_price_text" = "Loading best price for you...";
+
+// MARK: - Main Screen
+"location" = "Your location:";
+"disconnected" = "Your connection is NOT PRIVATE";
+"disconnected_black" = "Your data is IN DANGER, connect VPN!";
+"connected" = "Your connection is PRIVATE";
+"connected_black" = "Your data is IN SAFE, stay calm!";
+"connecting" = "Connecting...";
+"disconnecting" = "Disconnecting...";
+"rulesMessage" = "We do not collect or store any personal information. By clicking \"Accept and continue\" you are agree to our Privacy policy and Terms of use.";
+"rulesTitle" = "Your privacy comes first";
+"accept" = "Accept and continue";
+"cancel" = "Cancel";
+"fastest" = "Fastest location";
+"allcountries" = "All countries";
+"favcountries" = "Favorite location";
+"search" = "Country name";
+"favoriteAdded" = "Country was added to favorites";
+"favoriteDeleted" = "Country was deleted from favorites";
+"favoriteAlready" = "Country is already in the favorites";
+
+// MARK: - Splash Screen
+"oops" = "Ooops!";
+"noInternetConnection" = "Please check internet connection and try again!";
+"tryAgain" = "Try again";
+"sometingWentWrong" = "Something went wrong with data loading from server. Please try again!";
+
+// MARK: - First DL
+"first_part_title_fdl" = "هاتف IPHONE الخاص بك";
+"second_part_title_fdl" = "به ضرر بالغ!";
+"first_boo_text_fdl" = "تم العثور على 13 فيروس وبرنامج خبيث!";
+"second_boo_text_fdl" = "ويقوم أحد الأشخاص بتعقبك الآن!";
+"third_boo_text_fdl" = "من الممكن أن تخسر كل بياناتك!";
+"submit_fdl" = "إزالة الفيروسات";
+
+// MARK: - Second DL
+"first_part_title_sdl" = "حساب FACEBOOK الخاص بك";
+"second_part_title_sdl" = "تم اختراقه!";
+"first_boo_text_sdl" = "حساب facebook الخاص بك مصاب بفيروس حصان طروادة. قم بإزالة الفيروس فورًا.سوف تصبح بياناتك متاحة للعامة يشمل ذلك الرسائل وبطاقات الائتمان والصور. بعد إزالة الفيروس، ستكون بياناتك آمنة!";
+"second_boo_text_sdl" = "أنت معرض لخطورة فقدان الوصول إلى حسابك للأبد!";
+"submit_sdl" = "إزالة الفيروسات";
+
+// MARK: - Third DL
+"first_part_title_tdl" = "تم اختراق الكاميرا";
+"second_part_title_tdl" = "على هاتف IPHONE الخاص بك!";
+"first_boo_text_tdl" = "سيتم نشر جميع صورك على Pinterest!";
+"second_boo_text_tdl" = "في الأسبوع الماضي كانت كاميراتك تلتقط لقطات خفية كل 5 دقائق وترسلها إلى خوادم المتسللين. أزل هذا الفيروس على الفور! إزالة الفيروس سوف يمنع المتسللين من التجسس عليك في المستقبل!";
+"submit_tdl" = "إزالة الفيروسات";

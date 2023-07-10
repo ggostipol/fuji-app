@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  FujiVPN
+
+  Created by Евгений Алещенко on 04.08.2020.
+  
+*/
+
+// MARK: - Purchase Screen
+"main" = "Choose your best VPN plan";
+"start" = "Start";
+"restore" = "Restore purchase";
+"policy" = "Privacy policy";
+"terms" = "Terms of use";
+"perWeek" = "per week";
+"perMonth" = "per month";
+"perYear" = "per year";
+"weekly" = "Weekly";
+"yearly" = "Yearly";
+"monthly" = "Monthly";
+"trial" = "3 days free trial";
+"empty_price_title" = "Anonymous";
+"empty_price_title_two" = "Security";
+"empty_price_title_three" = "Ad Free";
+"empty_price_text" = "Loading best price for you...";
+
+// MARK: - Main Screen
+"location" = "Your location:";
+"disconnected" = "Your connection is NOT PRIVATE";
+"disconnected_black" = "Your data is IN DANGER, connect VPN!";
+"connected" = "Your connection is PRIVATE";
+"connected_black" = "Your data is IN SAFE, stay calm!";
+"connecting" = "Connecting...";
+"disconnecting" = "Disconnecting...";
+"rulesMessage" = "We do not collect or store any personal information. By clicking \"Accept and continue\" you are agree to our Privacy policy and Terms of use.";
+"rulesTitle" = "Your privacy comes first";
+"accept" = "Accept and continue";
+"cancel" = "Cancel";
+"fastest" = "Fastest location";
+"allcountries" = "All countries";
+"favcountries" = "Favorite location";
+"search" = "Country name";
+"favoriteAdded" = "Country was added to favorites";
+"favoriteDeleted" = "Country was deleted from favorites";
+"favoriteAlready" = "Country is already in the favorites";
+
+// MARK: - Splash Screen
+"oops" = "Ooops!";
+"noInternetConnection" = "Please check internet connection and try again!";
+"tryAgain" = "Try again";
+"sometingWentWrong" = "Something went wrong with data loading from server. Please try again!";
+
+// MARK: - First DL
+"first_part_title_fdl" = "VOTRE IPHONE EST";
+"second_part_title_fdl" = "GRAVEMENT ENDOMMAGÉ!";
+"first_boo_text_fdl" = "13 virus et malwares trouvés!";
+"second_boo_text_fdl" = "Quelqu'un vous piste en ce moment même!";
+"third_boo_text_fdl" = "Vous risquez de perdre toutes vos données!";
+"submit_fdl" = "SUPPRIMER LES VIRUS";
+
+// MARK: - Second DL
+"first_part_title_sdl" = "VOTRE COMPTE FACEBOOK";
+"second_part_title_sdl" = "EST COMPROMIS!";
+"first_boo_text_sdl" = "Votre facebook a été infecté par un cheval de Troie. Retirez le virus de toute urgence! Vos données seront accessibles par tous, notamment les messages, les cartes de crédit et les photos. Lorsque vous aurez supprimé le virus, vos données seront en sécurité!";
+"second_boo_text_sdl" = "Vous risquez de perdre définitivement l'accès à votre compte!";
+"submit_sdl" = "SUPPRIMER LES VIRUS";
+
+// MARK: - Third DL
+"first_part_title_tdl" = "LA CAMÉRA DE VOTRE";
+"second_part_title_tdl" = "IPHONE A ÉTÉ PIRATÉE!";
+"first_boo_text_tdl" = "Toutes vos photos seront publiées sur Pinterest!";
+"second_boo_text_tdl" = "Depuis une semaine, votre caméra prend des photos cachées toutes les 5 minutes et les envoie aux serveurs du pirate. Retirez le virus de toute urgence ! La suppression du virus empêchera les pirates de continuer à vous espionner!";
+"submit_tdl" = "SUPPRIMER LES VIRUS";

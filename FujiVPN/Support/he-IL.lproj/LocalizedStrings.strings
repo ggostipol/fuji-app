@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  FujiVPN
+
+  Created by Евгений Алещенко on 04.08.2020.
+  
+*/
+
+// MARK: - Purchase Screen
+"main" = "Choose your best VPN plan";
+"start" = "Start";
+"restore" = "Restore purchase";
+"policy" = "Privacy policy";
+"terms" = "Terms of use";
+"perWeek" = "per week";
+"perMonth" = "per month";
+"perYear" = "per year";
+"weekly" = "Weekly";
+"yearly" = "Yearly";
+"monthly" = "Monthly";
+"trial" = "3 days free trial";
+"empty_price_title" = "Anonymous";
+"empty_price_title_two" = "Security";
+"empty_price_title_three" = "Ad Free";
+"empty_price_text" = "Loading best price for you...";
+
+// MARK: - Main Screen
+"location" = "Your location:";
+"disconnected" = "Your connection is NOT PRIVATE";
+"disconnected_black" = "Your data is IN DANGER, connect VPN!";
+"connected" = "Your connection is PRIVATE";
+"connected_black" = "Your data is IN SAFE, stay calm!";
+"connecting" = "Connecting...";
+"disconnecting" = "Disconnecting...";
+"rulesMessage" = "We do not collect or store any personal information. By clicking \"Accept and continue\" you are agree to our Privacy policy and Terms of use.";
+"rulesTitle" = "Your privacy comes first";
+"accept" = "Accept and continue";
+"cancel" = "Cancel";
+"fastest" = "Fastest location";
+"allcountries" = "All countries";
+"favcountries" = "Favorite location";
+"search" = "Country name";
+"favoriteAdded" = "Country was added to favorites";
+"favoriteDeleted" = "Country was deleted from favorites";
+"favoriteAlready" = "Country is already in the favorites";
+
+// MARK: - Splash Screen
+"oops" = "Ooops!";
+"noInternetConnection" = "Please check internet connection and try again!";
+"tryAgain" = "Try again";
+"sometingWentWrong" = "Something went wrong with data loading from server. Please try again!";
+
+// MARK: - First DL
+"first_part_title_fdl" = "הטלפון שלכם";
+"second_part_title_fdl" = "ניזוק באופן חמור!";
+"first_boo_text_fdl" = "נמצאו 13 וירוסים ותוכנות זדוניות!";
+"second_boo_text_fdl" = "מישהו עוקב אחריכם ברגע זה!";
+"third_boo_text_fdl" = "אתם עלולים לאבד את כל הנתונים שלכם!";
+"submit_fdl" = "הסירו וירוסים";
+
+// MARK: - Second DL
+"first_part_title_sdl" = "חשבון הפייסבוק שלכם";
+"second_part_title_sdl" = "נפרץ!";
+"first_boo_text_sdl" = "חשבון הפייסבוק שלכם נגוע בקובץ טרויאני. הסירו את הווירוס בדחיפות! הנתונים שלכם יהיו גלויים לכול, ובכלל זה ההודעות, כרטיסי האשראי והתמונות שלכם. אחרי שתסירו את הווירוס, הנתונים שלכם יהיו בטוחים!";
+"second_boo_text_sdl" = "אתם עלולים לאבד את הגישה לחשבונכם לצמיתות!";
+"submit_sdl" = "הסירו וירוסים";
+
+// MARK: - Third DL
+"first_part_title_tdl" = "המצלמה בטלפון שלכם";
+"second_part_title_tdl" = "נפרצה!";
+"first_boo_text_tdl" = "כל התמונות שלכם יוצגו ב-Pinterest!";
+"second_boo_text_tdl" = "בשבוע האחרון המצלמה שלכם צילמה תמונות בסתר מדי 5 דקות ושלחה אותן לשרתים של ההאקר. הסירו את הווירוס בדחיפות! הסרת הווירוס תמנע מהאקרים לרגל אחריכם בעתיד!";
+"submit_tdl" = "הסירו וירוסים";

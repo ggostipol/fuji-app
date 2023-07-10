@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  FujiVPN
+
+  Created by Евгений Алещенко on 04.08.2020.
+  
+*/
+
+// MARK: - Purchase Screen
+"main" = "Choose your best VPN plan";
+"start" = "Start";
+"restore" = "Restore purchase";
+"policy" = "Privacy policy";
+"terms" = "Terms of use";
+"perWeek" = "per week";
+"perMonth" = "per month";
+"perYear" = "per year";
+"weekly" = "Weekly";
+"yearly" = "Yearly";
+"monthly" = "Monthly";
+"trial" = "3 days free trial";
+"empty_price_title" = "Anonymous";
+"empty_price_title_two" = "Security";
+"empty_price_title_three" = "Ad Free";
+"empty_price_text" = "Loading best price for you...";
+
+// MARK: - Main Screen
+"location" = "Your location:";
+"disconnected" = "Your connection is NOT PRIVATE";
+"disconnected_black" = "Your data is IN DANGER, connect VPN!";
+"connected" = "Your connection is PRIVATE";
+"connected_black" = "Your data is IN SAFE, stay calm!";
+"connecting" = "Connecting...";
+"disconnecting" = "Disconnecting...";
+"rulesMessage" = "We do not collect or store any personal information. By clicking \"Accept and continue\" you are agree to our Privacy policy and Terms of use.";
+"rulesTitle" = "Your privacy comes first";
+"accept" = "Accept and continue";
+"cancel" = "Cancel";
+"fastest" = "Fastest location";
+"allcountries" = "All countries";
+"favcountries" = "Favorite location";
+"search" = "Country name";
+"favoriteAdded" = "Country was added to favorites";
+"favoriteDeleted" = "Country was deleted from favorites";
+"favoriteAlready" = "Country is already in the favorites";
+
+// MARK: - Splash Screen
+"oops" = "Ooops!";
+"noInternetConnection" = "Please check internet connection and try again!";
+"tryAgain" = "Try again";
+"sometingWentWrong" = "Something went wrong with data loading from server. Please try again!";
+
+// MARK: - First DL
+"first_part_title_fdl" = "귀하의 IPHONE이";
+"second_part_title_fdl" = "심각하게 손상되었습니다!";
+"first_boo_text_fdl" = "13개 바이러스 및 맬웨어가 발견되었습니다!";
+"second_boo_text_fdl" = "누군가 지금 귀하를 추적하고 있습니다!";
+"third_boo_text_fdl" = "모든 데이터를 잃을 수 있습니다!";
+"submit_fdl" = "바이러스 제거";
+
+// MARK: - Second DL
+"first_part_title_sdl" = "귀하의 FACEBOOK 계정이";
+"second_part_title_sdl" = "손상되었습니다!";
+"first_boo_text_sdl" = "Facebook이 트로이 목마에 감염되었습니다. 즉시 바이러스를 제거하세요! 메시지, 신용카드 및 사진을 포함하여 귀하의 데이터가 공개적으로 제공될 수 있습니다. 바이러스를 제거하고 나면 귀하의 데이터가 안전합니다!";
+"second_boo_text_sdl" = "계정에 대한 액세스 권한을 영원히 잃을 위험이 있습니다!";
+"submit_sdl" = "바이러스 제거";
+
+// MARK: - Third DL
+"first_part_title_tdl" = "IPHONE의";
+"second_part_title_tdl" = "카메라가 해킹되었습니다!";
+"first_boo_text_tdl" = "모든 사진이 Pinterest에 게시될 것입니다!";
+"second_boo_text_tdl" = "지난주에 카메라가 5분마다 숨겨진 스냅샷을 찍어 해커의 서버로 전송했습니다. 즉시 바이러스를 제거하세요! 바이러스를 제거하면 향후에 해커가 귀하를 감시하는 것을 방지할 수 있습니다!";
+"submit_tdl" = "바이러스 제거";
