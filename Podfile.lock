@@ -102,7 +102,6 @@ PODS:
   - BidMachineVungleAdapter (2.0.0.2):
     - BidMachine (~> 2.0.0.0)
     - VungleSDK-iOS (= 6.12.1)
-  - Branch (1.45.2)
   - BulletinBoard (5.0.0)
   - BURelyFoundation_Global (0.0.1.57):
     - BURelyFoundation_Global/NETWork (= 0.0.1.57)
@@ -426,7 +425,6 @@ DEPENDENCIES:
   - BidMachineSmaatoAdapter (~> 2.0.0.0)
   - BidMachineTapjoyAdapter (~> 2.0.0.0)
   - BidMachineVungleAdapter (~> 2.0.0.1)
-  - Branch
   - BulletinBoard
   - DeviceLayout
   - Firebase/Analytics
@@ -475,7 +473,6 @@ SPEC REPOS:
     - BidMachineSmaatoAdapter
     - BidMachineTapjoyAdapter
     - BidMachineVungleAdapter
-    - Branch
     - BulletinBoard
     - BURelyFoundation_Global
     - CriteoPublisherSdk
@@ -554,7 +551,6 @@ SPEC CHECKSUMS:
   BidMachineSmaatoAdapter: 08527115d30d9962bb8e40bb26bb13d72449d2e0
   BidMachineTapjoyAdapter: e89eea170e8fcf4aa294e612588e1c1a2383e99b
   BidMachineVungleAdapter: 5ac1dd79b1b00116c17aa82f7239ea54b2e7de5b
-  Branch: c1a7fa1811ef9203c01bc6c2588a229eb3ee1a84
   BulletinBoard: dba77053c2a7b64953f63073f7534165af2edd21
   BURelyFoundation_Global: 5b03b5340630fa62fb9cd6eac52c5f57d4b0c17b
   CriteoPublisherSdk: 26f16f975d6c0392ee7060626268e2f2d7ed2d82
@@ -601,6 +597,6 @@ SPEC CHECKSUMS:
   VungleSDK-iOS: 1d3488d790daf7266d5930ca901f1c3188fb936d
   YandexMobileMetrica: 7dafc7d224077d4443ab3a587b82b24e9b6cc9c7
 
-PODFILE CHECKSUM: 4a7b6da7d8469a391ef775ec6b637fd25e194b22
+PODFILE CHECKSUM: b0b35ccfa1f8eb8e3b521a7fa00a83816564cdf8
 
 COCOAPODS: 1.11.3

@@ -33,7 +33,6 @@ target 'FujiVPN' do
   pod 'JGProgressHUD'
   pod 'KeychainSwift', '~> 19.0'
   pod 'YandexMobileMetrica/Dynamic'
-  pod 'Branch'
   pod 'APDAdColonyAdapter', '3.0.2.1'
   pod 'BidMachineAdColonyAdapter', '~> 2.0.0.0'
   pod 'APDAppLovinAdapter', '3.0.2.1'

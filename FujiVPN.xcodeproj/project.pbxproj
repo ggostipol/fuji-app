@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1DC36A89C3D7893CC3241491 /* Pods_FujiVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E42E8E362EE0CA149DF0A5D /* Pods_FujiVPN.framework */; };
+		D412C6552A5C1214002B3DB0 /* BranchSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D412C6542A5C1214002B3DB0 /* BranchSDK */; };
 		D420BE4825069FC700EAA357 /* SelectCountryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D420BE4625069FC700EAA357 /* SelectCountryVC.xib */; };
 		D420BE4925069FC700EAA357 /* SelectCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420BE4725069FC700EAA357 /* SelectCountryVC.swift */; };
 		D44476BB24E2B90B00D813CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44476BA24E2B90B00D813CA /* GoogleService-Info.plist */; };
@@ -131,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44476C024E2C2DD00D813CA /* NetworkExtension.framework in Frameworks */,
+				D412C6552A5C1214002B3DB0 /* BranchSDK in Frameworks */,
 				D44476BD24E2C2D600D813CA /* StoreKit.framework in Frameworks */,
 				1DC36A89C3D7893CC3241491 /* Pods_FujiVPN.framework in Frameworks */,
 			);
@@ -387,6 +389,9 @@
 			dependencies = (
 			);
 			name = FujiVPN;
+			packageProductDependencies = (
+				D412C6542A5C1214002B3DB0 /* BranchSDK */,
+			);
 			productName = FujiVPN;
 			productReference = D4D1090224BC3A52006493E4 /* FujiVPN.app */;
 			productType = "com.apple.product-type.application";
@@ -423,6 +428,9 @@
 				"he-IL",
 			);
 			mainGroup = D4D108F924BC3A52006493E4;
+			packageReferences = (
+				D412C6532A5C1214002B3DB0 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+			);
 			productRefGroup = D4D1090324BC3A52006493E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -724,7 +732,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FujiVPN/FujiVPN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KJ4383YHBF;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FujiVPN/Support/Info.plist;
@@ -735,7 +743,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.2.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuji.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -752,7 +760,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FujiVPN/FujiVPN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KJ4383YHBF;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FujiVPN/Support/Info.plist;
@@ -763,7 +771,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.2.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuji.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -794,6 +802,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D412C6532A5C1214002B3DB0 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D412C6542A5C1214002B3DB0 /* BranchSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D412C6532A5C1214002B3DB0 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
+			productName = BranchSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D4D108FA24BC3A52006493E4 /* Project object */;
 }
