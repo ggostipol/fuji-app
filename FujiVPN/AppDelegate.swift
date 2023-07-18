@@ -20,6 +20,7 @@ import AppTrackingTransparency
 import BranchSDK
 import Amplitude_iOS
 import Appodeal
+import AppsFlyerLib
 
 private struct AppodealConstants {
     static let key: String = "10e7dcac7068748c84c8102fedd2cac4feaec4b5c1bbc385"
@@ -31,6 +32,7 @@ private struct AppodealConstants {
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
+    var ConversionData: [AnyHashable: Any]? = nil
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         currentLanguage = Language.english.isoCode
@@ -39,6 +41,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Apphud.setDelegate(self)
         Apphud.start(apiKey: "app_hUjeuLmuW6EZB9t4BeHNgt8ADCDoBr")
+        
+        AppsFlyerLib.shared().appsFlyerDevKey = "p3Uu6gxVxFiwwypuaQhSEh"
+        AppsFlyerLib.shared().appleAppID = "1527248400"
+        AppsFlyerLib.shared().customerUserID = Apphud.userID()
+        AppsFlyerLib.shared().waitForATTUserAuthorization(timeoutInterval: 60)
+        
+        AppsFlyerLib.shared().delegate = self
         
         STKConsentManager.shared().disableAppTrackingTransparencyRequest()
         Appodeal.updateUserConsentGDPR(.nonPersonalized)
@@ -83,6 +92,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     @objc func applicationDidBecomeActive() {
+        AppsFlyerLib.shared().start()
         if #available(iOS 14, *) {
             ATTrackingManager.requestTrackingAuthorization { status in
                 guard status == .authorized else {
@@ -98,15 +108,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         Branch.getInstance().application(app, open: url, options: options)
+        AppsFlyerLib.shared().handleOpen(url, options: options)
         return true
     }
 
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
         Branch.getInstance().continue(userActivity)
+        AppsFlyerLib.shared().continue(userActivity, restorationHandler: nil)
         return true
     }
 
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        AppsFlyerLib.shared().handlePushNotification(userInfo)
         Branch.getInstance().handlePushNotification(userInfo)
     }
 }
@@ -148,5 +161,52 @@ extension AppDelegate: ApphudDelegate {
         Crashlytics.crashlytics().setUserID(userID)
         FirebaseAnalytics.Analytics.setUserID(userID)
         Appodeal.setUserId(userID)
+        AppsFlyerLib.shared().customerUserID = userID
+    }
+}
+
+extension AppDelegate: AppsFlyerLibDelegate {
+     
+    // Handle Organic/Non-organic installation
+    func onConversionDataSuccess(_ data: [AnyHashable: Any]) {
+        ConversionData = data
+        print("onConversionDataSuccess data:")
+        for (key, value) in data {
+            print(key, ":", value)
+        }
+        if let conversionData = data as NSDictionary? as! [String:Any]? {
+        
+            if let status = conversionData["af_status"] as? String {
+                if (status == "Non-organic") {
+                    if let sourceID = conversionData["media_source"],
+                        let campaign = conversionData["campaign"] {
+                        NSLog("[AFSDK] This is a Non-Organic install. Media source: \(sourceID)  Campaign: \(campaign)")
+                    }
+                } else {
+                    NSLog("[AFSDK] This is an organic install.")
+                }
+                
+                if let is_first_launch = conversionData["is_first_launch"] as? Bool,
+                    is_first_launch {
+                    NSLog("[AFSDK] First Launch")
+                    if !conversionData.keys.contains("deep_link_value") && conversionData.keys.contains("fruit_name"){
+                        switch conversionData["fruit_name"] {
+                            case let fruitNameStr as String:
+                            NSLog("This is a deferred deep link opened using conversion data")
+//                            walkToSceneWithParams(fruitName: fruitNameStr, deepLinkData: conversionData)
+                            default:
+                                NSLog("Could not extract deep_link_value or fruit_name from deep link object using conversion data")
+                                return
+                        }
+                    }
+                } else {
+                    NSLog("[AFSDK] Not First Launch")
+                }
+            }
+        }
+    }
+    
+    func onConversionDataFail(_ error: Error) {
+        NSLog("[AFSDK] \(error)")
     }
 }

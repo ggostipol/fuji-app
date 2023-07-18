@@ -29,6 +29,7 @@
 		D483936324E00B52009A4A81 /* IPInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483936224E00B52009A4A81 /* IPInfo.swift */; };
 		D494DB432500C496009A8F34 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D494DB422500C496009A8F34 /* UILabel.swift */; };
 		D494DB472500CCAC009A8F34 /* progress.json in Resources */ = {isa = PBXBuildFile; fileRef = D494DB462500CCAC009A8F34 /* progress.json */; };
+		D49AB0102A616AA4000C4CC1 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = D49AB00F2A616AA4000C4CC1 /* AppsFlyerLib */; };
 		D49B094324E9948500D64BD3 /* BulletinDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B094224E9948500D64BD3 /* BulletinDataSource.swift */; };
 		D49F7C8F250E0E760075D63E /* SelectCountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F7C8D250E0E760075D63E /* SelectCountryCell.swift */; };
 		D49F7C90250E0E760075D63E /* SelectCountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49F7C8E250E0E760075D63E /* SelectCountryCell.xib */; };
@@ -132,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44476C024E2C2DD00D813CA /* NetworkExtension.framework in Frameworks */,
+				D49AB0102A616AA4000C4CC1 /* AppsFlyerLib in Frameworks */,
 				D412C6552A5C1214002B3DB0 /* BranchSDK in Frameworks */,
 				D44476BD24E2C2D600D813CA /* StoreKit.framework in Frameworks */,
 				1DC36A89C3D7893CC3241491 /* Pods_FujiVPN.framework in Frameworks */,
@@ -391,6 +393,7 @@
 			name = FujiVPN;
 			packageProductDependencies = (
 				D412C6542A5C1214002B3DB0 /* BranchSDK */,
+				D49AB00F2A616AA4000C4CC1 /* AppsFlyerLib */,
 			);
 			productName = FujiVPN;
 			productReference = D4D1090224BC3A52006493E4 /* FujiVPN.app */;
@@ -430,6 +433,7 @@
 			mainGroup = D4D108F924BC3A52006493E4;
 			packageReferences = (
 				D412C6532A5C1214002B3DB0 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */,
+				D49AB00E2A616AA4000C4CC1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 			);
 			productRefGroup = D4D1090324BC3A52006493E4 /* Products */;
 			projectDirPath = "";
@@ -743,7 +747,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuji.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -771,7 +775,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fuji.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -812,6 +816,14 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		D49AB00E2A616AA4000C4CC1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -819,6 +831,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D412C6532A5C1214002B3DB0 /* XCRemoteSwiftPackageReference "ios-branch-sdk-spm" */;
 			productName = BranchSDK;
+		};
+		D49AB00F2A616AA4000C4CC1 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D49AB00E2A616AA4000C4CC1 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
